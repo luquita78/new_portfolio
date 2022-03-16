@@ -107,12 +107,14 @@ section#inicio{
 
 section#inicio h2{
     font-size: 4rem;
-    margin-left: 8rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     
 }
 
 section#inicio span#subtitle{
-    margin-left: 8rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     font-size: 1.5rem;
 }
 
@@ -143,6 +145,12 @@ section#inicio span#subtitle{
     
   }
 
+
+  section#sobre .foto-sobre{
+      border-radius: 10%;
+      box-shadow: 4px 4px 10px #000000;
+  }
+
   .menu-nav-active{
       overflow: hidden;
   }
@@ -161,9 +169,11 @@ section#inicio span#subtitle{
       section#inicio h2{
           font-size: 2rem;
           margin-left: 0;
+          margin-right: 0;
       }
       section#inicio span#subtitle{
           margin-left: 0;
+          margin-right: 0;
           font-size: 1rem;
       }
       #main{
