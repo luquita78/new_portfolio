@@ -198,3 +198,7 @@ section#inicio span#subtitle{
     background-color: #F5CF2A;
     border-radius: 5%;
   }
+
+  .section-bg{
+      background-color: #e0e0e013;
+  }
