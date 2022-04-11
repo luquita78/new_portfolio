@@ -224,6 +224,7 @@ section#inicio span#subtitle{
     font-family: "Poppins", sans-serif;
     color: #2c2f3f;
     margin-bottom: 10px;
+    margin-left: 6px;
 }
 
 .cv .cv-item h5 {
@@ -232,12 +233,12 @@ section#inicio span#subtitle{
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
-      
+    margin-left: 6px;
 }
 
 
   .cv .cv-item p {
-      margin-left: 2px;
+      margin-left: 6px;
   }
 
  
