@@ -202,3 +202,43 @@ section#inicio span#subtitle{
   .section-bg{
       background-color: #e0e0e013;
   }
+
+  .cv .cv-title{
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+  }
+
+  .cv .cv-item{
+      padding: 0, 0, 20px, 20px;
+      margin-top: -2px;
+      border-left: 2px solid #2c2f3f;
+      position: relative;
+  }
+
+  .cv .cv-item h4 {
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #2c2f3f;
+    margin-bottom: 10px;
+}
+
+.cv .cv-item h5 {
+    background: #f5e49b;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+      
+}
+
+
+  .cv .cv-item p {
+      margin-left: 2px;
+  }
+
+ 
+
