@@ -1,13 +1,12 @@
-from crypt import methods
-from flask import Flask, render_template,redirect, Request, request, flash
+from flask import Flask, render_template,redirect, request, flash
 from flask_mail import Mail, Message
 from config import email, senha
 
 app = Flask(__name__)
-app.secret_key = '*P4percut45'
+app.secret_key = 'percut'
 
 mail_settings = {
-    "MAIL_SERVER":'sntp.gmail.com',
+    "MAIL_SERVER":'smtp.gmail.com',
     "MAIL_port": 465,
     "MAIL_USE_TLS": False,
     "MAIL_USE_SSL":True,
@@ -36,7 +35,7 @@ def send():
         formContato = Contato(request.form['nome'],['email'],['mensagem'])
 
         msg = Message(
-            subject=f'{formContato} enviou-lhe uma mensagem.',
+            subject=f'{formContato.nome} enviou-lhe uma mensagem.',
             sender=app.config.get("MAIL_USERNAME"),
             recipients= ['lucasbarbosa.oliveira78@gmail.com', app.config.get("MAIL_USERNAME")],
             body = f'''
