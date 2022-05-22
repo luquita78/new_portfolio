@@ -8,8 +8,8 @@ app.secret_key = 'percut'
 mail_settings = {
     "MAIL_SERVER":'smtp.gmail.com',
     "MAIL_port": 465,
-    "MAIL_USE_TLS": False,
-    "MAIL_USE_SSL":True,
+    "MAIL_USE_TLS":False,
+    "MAIL_USE_SSL": True,
     "MAIL_USERNAME":email,
     "MAIL_PASSWORD":senha
 
