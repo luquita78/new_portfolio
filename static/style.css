@@ -95,7 +95,7 @@ html, body{
 }
 
 section#inicio{
-    background-image:linear-gradient(90deg,#c7a302 35%,#fff30c 165%);;
+    background-image: url(img/fundo-abstrato-com-design-baixo-poli.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
