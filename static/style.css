@@ -95,7 +95,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url(img/fundo-abstrato-com-design-baixo-poli.jpg);
+    background-image: url("../static/img/poster_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
