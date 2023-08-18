@@ -95,7 +95,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url(./img/poster_background.png);
+    background-color:linear-gradient(90deg,#c7a302 35%,#326589 165%);;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
